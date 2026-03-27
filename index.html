@@ -14,25 +14,29 @@
     </style>
 </head>
 <body class="bg-white text-slate-800 selection:bg-[#B86B52]/20">
-    <nav class="fixed top-0 z-50 w-full border-b border-slate-100 bg-white/80 backdrop-blur-md">
+    
+    <!-- Navigation -->
+    <nav class="fixed top-0 z-50 w-full border-b border-slate-100 bg-white/90 backdrop-blur-md">
         <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
             <div class="text-xl font-medium tracking-tight text-slate-900">
-                K-12 Principal Portfolio Home
+                <a href="#home">K-12 Principal Portfolio</a>
             </div>
+            <!-- Desktop Menu -->
             <div class="hidden items-center gap-8 md:flex">
-                <a href="#" class="bg-[#B86B52] rounded-md px-4 py-1.5 text-sm font-medium text-white transition-opacity hover:opacity-90">
+                <a href="#home" class="bg-[#B86B52] rounded-md px-4 py-1.5 text-sm font-medium text-white transition-opacity hover:opacity-90">
                     Home
                 </a>
-                <a href="#" class="text-sm font-medium text-slate-600 transition-colors hover:text-slate-900">About Me</a>
-                <a href="#" class="text-sm font-medium text-slate-600 transition-colors hover:text-slate-900">Projects</a>
-                <a href="#" class="text-sm font-medium text-slate-600 transition-colors hover:text-slate-900">Teaching</a>
-                <a href="#" class="text-sm font-medium text-slate-600 transition-colors hover:text-slate-900">CV</a>
-                <a href="#" class="text-sm font-medium text-slate-600 transition-colors hover:text-slate-900">Contact</a>
+                <a href="#about" class="text-sm font-medium text-slate-600 transition-colors hover:text-slate-900">About Me</a>
+                <a href="#projects" class="text-sm font-medium text-slate-600 transition-colors hover:text-slate-900">Projects</a>
+                <a href="#teaching" class="text-sm font-medium text-slate-600 transition-colors hover:text-slate-900">Teaching</a>
+                <a href="#cv" class="text-sm font-medium text-slate-600 transition-colors hover:text-slate-900">CV</a>
+                <a href="#contact" class="text-sm font-medium text-slate-600 transition-colors hover:text-slate-900">Contact</a>
             </div>
         </div>
     </nav>
 
-    <header class="relative mt-16 h-[400px] w-full overflow-hidden">
+    <!-- Header / Hero Section -->
+    <header id="home" class="relative mt-16 h-[400px] w-full overflow-hidden scroll-mt-24">
         <img src="https://i.postimg.cc/dQCw7SmC/Gemini-Generated-Image-kcdkdwkcdkdwkcdk.png" 
              alt="School Hallway" 
              class="h-full w-full object-cover">
@@ -40,8 +44,11 @@
     </header>
 
     <main class="mx-auto max-w-7xl px-6 pb-24">
-        <div class="relative -mt-32 flex flex-col gap-12 lg:flex-row lg:items-start lg:gap-24">
+        
+        <!-- About Section -->
+        <section id="about" class="relative -mt-32 flex flex-col gap-12 lg:flex-row lg:items-start lg:gap-24 scroll-mt-32">
             
+            <!-- Profile Sidebar -->
             <div class="flex flex-col items-center text-center lg:items-start lg:text-left lg:w-1/3">
                 <div class="relative mb-8 h-64 w-64 overflow-hidden rounded-full border-8 border-white shadow-xl bg-white">
                     <img src="https://i.postimg.cc/rwrmqFZy/IMG-6802.jpg" 
@@ -49,40 +56,152 @@
                          class="h-full w-full object-cover">
                 </div>
                 
-                <div>
+                <div class="sticky top-32">
                     <h1 class="mb-2 text-4xl font-semibold tracking-tight text-slate-900 lg:text-5xl">Janet Colvin</h1>
                     <p class="mb-6 text-xl font-medium text-slate-600">PhD (ABD) | K-12 Executive Leader</p>
                     
-                    <div class="mb-8 space-y-1 text-slate-500">
-                        <p>Email: goodlandone@gmail.com</p>
-                        <p>Phone: 414-429-1277</p>
-                        <p>Location: Oak Creek, WI</p>
+                    <div class="mb-8 space-y-2 text-slate-500">
+                        <p class="flex items-center gap-3 lg:justify-start justify-center"><i data-lucide="mail" class="w-4 h-4"></i> goodlandone@gmail.com</p>
+                        <p class="flex items-center gap-3 lg:justify-start justify-center"><i data-lucide="phone" class="w-4 h-4"></i> 414-429-1277</p>
+                        <p class="flex items-center gap-3 lg:justify-start justify-center"><i data-lucide="map-pin" class="w-4 h-4"></i> Oak Creek, WI</p>
                     </div>
                     
-                    <button class="bg-[#B86B52] rounded-md px-8 py-3 font-medium text-white shadow-lg transition-all hover:translate-y-[-2px] hover:shadow-xl active:translate-y-0">
+                    <a href="#contact" class="inline-block bg-[#B86B52] rounded-md px-8 py-3 font-medium text-white shadow-lg transition-all hover:translate-y-[-2px] hover:shadow-xl active:translate-y-0">
                         Get In Touch
-                    </button>
+                    </a>
                 </div>
             </div>
 
-            <div class="flex-1 pt-12 lg:pt-40">
-                <h2 class="mb-8 text-4xl font-semibold text-slate-900">A Legacy of Educational Service</h2>
-                <div class="space-y-6 text-lg leading-relaxed text-slate-600">
-                    <p>
-                        My journey in education began in the classrooms of Milwaukee, where I first witnessed the transformative power of reciprocal teaching and culturally relevant pedagogy. Since then, my path has led me from the front lines of instruction to the executive offices of school leadership.
-                    </p>
-                    <p>
-                        As a licensed Principal, Director of Instruction, and Director of Special Education, I have spent my career navigating the intersections of curriculum and administrative strategy. Whether I am implementing a Universal Breakfast program to meet basic needs or securing national recognition from the Expeditionary Learning Curriculum, my focus remains the same: <span class="font-semibold text-[#B86B52]">the child</span>.
-                    </p>
-                    <p>
-                        In 2022, I was honored with a Mayoral Proclamation for <span class="font-semibold text-[#B86B52]">"Janet Colvin Day,"</span> recognizing my work in building improvements, curricular innovation, and the establishment of a Science Research Dome. I am currently working on research in Leadership and Service, continuing my lifelong quest to refine the systems that serve our youth.
-                    </p>
+            <!-- Content Area -->
+            <div class="flex-1 pt-12 lg:pt-40 space-y-24">
+                
+                <!-- About Content -->
+                <div>
+                    <h2 class="mb-8 text-3xl font-semibold text-slate-900">A Legacy of Educational Service</h2>
+                    <div class="space-y-6 text-lg leading-relaxed text-slate-600">
+                        <p>
+                            My journey in education began in the classrooms of Milwaukee, where I first witnessed the transformative power of reciprocal teaching and culturally relevant pedagogy. Since then, my path has led me from the front lines of instruction to the executive offices of school leadership.
+                        </p>
+                        <p>
+                            As a licensed Principal, Director of Instruction, and Director of Special Education, I have spent my career navigating the intersections of curriculum and administrative strategy. Whether I am implementing a Universal Breakfast program to meet basic needs or securing national recognition from the Expeditionary Learning Curriculum, my focus remains the same: <span class="font-semibold text-[#B86B52]">the child</span>.
+                        </p>
+                        <p>
+                            In 2022, I was honored with a Mayoral Proclamation for <span class="font-semibold text-[#B86B52]">"Janet Colvin Day,"</span> recognizing my work in building improvements, curricular innovation, and the establishment of a Science Research Dome. I am currently working on research in Leadership and Service, continuing my lifelong quest to refine the systems that serve our youth.
+                        </p>
+                    </div>
                 </div>
+
+                <!-- Projects Section -->
+                <section id="projects" class="scroll-mt-32 border-t border-slate-100 pt-16">
+                    <h2 class="mb-8 text-3xl font-semibold text-slate-900">Key Initiatives & Projects</h2>
+                    <div class="grid gap-6 md:grid-cols-2">
+                        <div class="rounded-xl border border-slate-200 p-6 shadow-sm transition-shadow hover:shadow-md">
+                            <i data-lucide="microscope" class="w-8 h-8 text-[#B86B52] mb-4"></i>
+                            <h3 class="text-xl font-semibold text-slate-900 mb-2">Science Research Dome</h3>
+                            <p class="text-slate-600">Spearheaded the funding, design, and implementation of an immersive science research facility to elevate STEM outcomes for K-12 students.</p>
+                        </div>
+                        <div class="rounded-xl border border-slate-200 p-6 shadow-sm transition-shadow hover:shadow-md">
+                            <i data-lucide="coffee" class="w-8 h-8 text-[#B86B52] mb-4"></i>
+                            <h3 class="text-xl font-semibold text-slate-900 mb-2">Universal Breakfast Program</h3>
+                            <p class="text-slate-600">Ensured basic needs were met by coordinating a district-wide initiative to provide morning nutrition, resulting in improved morning attendance and focus.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Teaching Section -->
+                <section id="teaching" class="scroll-mt-32 border-t border-slate-100 pt-16">
+                    <h2 class="mb-8 text-3xl font-semibold text-slate-900">Teaching Philosophy</h2>
+                    <div class="rounded-xl bg-slate-50 p-8">
+                        <p class="text-lg leading-relaxed text-slate-600 italic border-l-4 border-[#B86B52] pl-6">
+                            "Culturally relevant pedagogy is not an add-on; it is the foundation of meaningful instruction. By validating the cultural identities of our students, we bridge the gap between their lived experiences and academic achievement."
+                        </p>
+                        <div class="mt-8 space-y-4 text-slate-600">
+                            <h4 class="font-semibold text-slate-900">Areas of Expertise:</h4>
+                            <ul class="list-inside list-disc space-y-2 marker:text-[#B86B52]">
+                                <li>Expeditionary Learning Frameworks</li>
+                                <li>Reciprocal Teaching Methodologies</li>
+                                <li>Special Education Integration & Compliance</li>
+                                <li>Curriculum Development & Alignment</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- CV Section -->
+                <section id="cv" class="scroll-mt-32 border-t border-slate-100 pt-16">
+                    <div class="flex items-center justify-between mb-8">
+                        <h2 class="text-3xl font-semibold text-slate-900">Curriculum Vitae</h2>
+                        <a href="#" class="flex items-center gap-2 text-sm font-medium text-[#B86B52] hover:underline">
+                            <i data-lucide="download" class="w-4 h-4"></i> Download Full CV
+                        </a>
+                    </div>
+                    
+                    <div class="space-y-8">
+                        <!-- CV Item 1 -->
+                        <div class="relative pl-8 before:absolute before:left-0 before:top-2 before:h-full before:w-[2px] before:bg-slate-200 after:absolute after:left-[-4px] after:top-2 after:h-2.5 after:w-2.5 after:rounded-full after:bg-[#B86B52]">
+                            <h3 class="text-xl font-semibold text-slate-900">K-12 Executive Leader / Principal</h3>
+                            <span class="text-sm font-medium text-[#B86B52]">Present</span>
+                            <p class="mt-2 text-slate-600">Overseeing building improvements, curriculum innovation, and staff development. Recipient of the Mayoral Proclamation for educational excellence.</p>
+                        </div>
+                        
+                        <!-- CV Item 2 -->
+                        <div class="relative pl-8 before:absolute before:left-0 before:top-2 before:h-full before:w-[2px] before:bg-slate-200 after:absolute after:left-[-4px] after:top-2 after:h-2.5 after:w-2.5 after:rounded-full after:bg-slate-300">
+                            <h3 class="text-xl font-semibold text-slate-900">Director of Special Education</h3>
+                            <span class="text-sm font-medium text-slate-500">Previous Role</span>
+                            <p class="mt-2 text-slate-600">Managed IEP compliance, specialized staffing, and district-wide resources to ensure equitable education for all students.</p>
+                        </div>
+                        
+                        <!-- CV Item 3 -->
+                        <div class="relative pl-8 after:absolute after:left-[-4px] after:top-2 after:h-2.5 after:w-2.5 after:rounded-full after:bg-slate-300">
+                            <h3 class="text-xl font-semibold text-slate-900">Director of Instruction</h3>
+                            <span class="text-sm font-medium text-slate-500">Previous Role</span>
+                            <p class="mt-2 text-slate-600">Led the implementation of the Expeditionary Learning Curriculum, elevating district-wide instructional standards.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Contact Section -->
+                <section id="contact" class="scroll-mt-32 border-t border-slate-100 pt-16">
+                    <h2 class="mb-8 text-3xl font-semibold text-slate-900">Get In Touch</h2>
+                    <div class="rounded-xl border border-slate-200 bg-white p-8 shadow-sm">
+                        <div class="grid gap-8 md:grid-cols-2">
+                            <div>
+                                <h3 class="text-xl font-semibold text-slate-900 mb-4">Let's Connect</h3>
+                                <p class="text-slate-600 mb-6">I am always open to discussing educational leadership, consulting opportunities, or sharing insights on K-12 administration.</p>
+                                
+                                <div class="space-y-4">
+                                    <a href="mailto:goodlandone@gmail.com" class="flex items-center gap-3 text-slate-600 hover:text-[#B86B52] transition-colors">
+                                        <i data-lucide="mail" class="w-5 h-5"></i> goodlandone@gmail.com
+                                    </a>
+                                    <a href="tel:414-429-1277" class="flex items-center gap-3 text-slate-600 hover:text-[#B86B52] transition-colors">
+                                        <i data-lucide="phone" class="w-5 h-5"></i> 414-429-1277
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <form class="space-y-4" onsubmit="event.preventDefault(); alert('In a production environment, this would send an email. For GitHub pages, consider using a service like Formspree!');">
+                                <div>
+                                    <label class="block text-sm font-medium text-slate-700 mb-1">Name</label>
+                                    <input type="text" class="w-full rounded-md border border-slate-300 px-4 py-2 focus:border-[#B86B52] focus:outline-none focus:ring-1 focus:ring-[#B86B52]">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-slate-700 mb-1">Message</label>
+                                    <textarea rows="4" class="w-full rounded-md border border-slate-300 px-4 py-2 focus:border-[#B86B52] focus:outline-none focus:ring-1 focus:ring-[#B86B52]"></textarea>
+                                </div>
+                                <button type="submit" class="w-full bg-slate-900 rounded-md px-4 py-2 font-medium text-white transition-opacity hover:opacity-90">
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+
             </div>
-        </div>
+        </section>
     </main>
 
-    <footer class="bg-slate-50 py-12">
+    <!-- Footer -->
+    <footer class="mt-12 border-t border-slate-100 bg-slate-50 py-12">
         <div class="mx-auto max-w-7xl px-6 text-center">
             <div class="mb-8 flex justify-center gap-6">
                 <a href="#" class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-900 text-white transition-transform hover:scale-110">
@@ -96,12 +215,13 @@
                 </a>
             </div>
             <p class="text-sm text-slate-500">
-                © 2026 Janet Colvin · Privacy Policy
+                © 2026 Janet Colvin · K-12 Executive Leader
             </p>
         </div>
     </footer>
 
     <script>
+        // Initialize Lucide icons
         lucide.createIcons();
     </script>
 </body>
